@@ -91,3 +91,33 @@
   position: absolute;
   right: 0px;
 }
+
+.stats {
+  height: 700px;
+  background-color: rgb(0, 255, 255);
+  border: 2px solid black;
+}
+
+.stats-intro {
+  height: 200px;
+  width: calc(100% - 400px);
+  background-color: rgb(0, 255, 191);
+  border: 2px solid black;
+  margin: 20px 200px 30px 200px;
+}
+
+.stats-table {
+  height: 400px;
+  background-color: rgb(0, 255, 128);
+  border: 2px solid black;
+  width: calc(100% - 400px);
+  margin: 20px 200px 30px 200px;
+}
+
+.table-element {
+  float: left;
+  height: 200px;
+  width: 25%;
+  background-color: rgb(64, 255, 0);
+  border: 2px solid black;
+}

@@ -67,16 +67,20 @@
 }
 
 
-.gethubspot-button {
-  height: 100%;
+.orange-button {
+  height: 50px;
   width: 150px;
   background-color: orange;
   color: white;
-  float: right;
-  margin-left: 20px;
   border-radius: 5px;
   line-height: 50px;
   text-align: center;
+}
+
+.gethubspotfree-1 {
+
+  float: right;
+  margin-left: 20px;
 }
 
 .fa-search {
@@ -109,14 +113,6 @@
   margin-left: 15px;
 }
 
-
-
-
-
-
-
-
-
 .introduction {
   background-color: rgb(255, 0, 128);
 }
@@ -124,11 +120,45 @@
 .introduction-col-right {
   width: 500px;
   height: 600px;
-  background-color: purple;
-  border: 2px solid black;
   position: relative;
   left: 200px;
+  top: 50px;
 }
+
+.introduction-col-right h1 {
+  font-size: 50px;
+
+}
+
+.introduction-col-right p{
+  margin-top: 30px;
+}
+
+.introduction-col-right div {
+  margin-top: 30px;
+}
+
+.introduction-col-right span {
+  display: block;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .introduction-bottom-bar {
   background-color: rgb(255, 0, 255);

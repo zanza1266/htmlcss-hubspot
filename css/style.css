@@ -12,7 +12,6 @@
 }
 
 .nav-down {
-  background-color: pink;
   height: 60px;
 }
 
@@ -84,6 +83,39 @@
   float: right;
   margin-top: 10px;
 }
+
+.nav-down-container {
+  height: 100%;
+  width: calc(100% - 400px);
+  margin-left: 200px;
+}
+
+.nav-down-logo {
+  height: 100%;
+  width:130px;
+  border: 1px solid black;
+  float: left;
+}
+
+.nav-down-right {
+  height: 100%;
+  width:500px;
+  float: right;
+}
+
+.nav-down-right span {
+  line-height: 60px;
+  float: right;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+
 
 .introduction {
   background-color: rgb(255, 0, 128);

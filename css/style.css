@@ -209,6 +209,7 @@
 .servicesintro-box p {
   margin-top: 40px;
   text-align: center;
+  line-height: 30px
 }
 
 
@@ -271,6 +272,7 @@
 .learnmore-box-right p {
   margin-top: 30px;
   margin-left: 10px;
+  line-height: 30px;
 }
 
 .popular-feature {
@@ -346,21 +348,25 @@ float: right;
 .servicebox h2 {
   text-align: center;
   margin-top: 40px;
+  font-weight: 700;
 }
 
 .servicebox p {
   text-align: center;
   margin-top: 40px;
+  line-height: 25px;
 }
 
 .servicebox hr {
   margin: auto;
   margin-top: 50px;
+  background-color: black;
 }
 
 .servicebox h3 {
   text-align: center;
   margin-top: 40px;
+  font-weight: bold;
 }
 
 .servicebox ul {
@@ -371,7 +377,7 @@ float: right;
 
 .servicebox div {
   margin: auto;
-  margin-top: 40px;
+  margin-top: 30px;
 
 }
 

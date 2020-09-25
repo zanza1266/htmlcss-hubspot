@@ -408,7 +408,7 @@ float: right;
 }
 
 .pre-footer-container {
-  height: 700px;
+  height: 600px;
   width: 75%;
   margin: auto;
   border: 2px solid black;
@@ -426,16 +426,42 @@ float: right;
 
 .top-right {
   height: 100%;
-  width: 350px;
+  width: 600px;
   border: 1px solid black;
   float: right;
 }
 
+.top-right-sponsor {
+  float: left;
+  height: 50%;
+  width: 25%;
+  border: 1px solid black;
+}
+
+.top-right-sponsor img {
+  width: 85%;
+  display: block;
+  margin: auto;
+  margin-top: 35px;
+
+}
+
 .top-left {
   height: 100%;
-  width: 200px;
+  width: 400px;
   border: 1px solid black;
   float: left;
+}
+
+.top-left h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.top-left p {
+text-align: center;
+margin-top: 20px;
 }
 
 .top-left::after{
@@ -447,9 +473,25 @@ float: right;
 .bottom-left {
   background-color: red;
   height: 100%;
-  width: 300px;
+  width: 400px;
   float: left;
+}
 
+.bottom-left h1 {
+  font-size: 40px;
+
+}
+
+.bottom-left p {
+  margin-top: 20px;
+}
+
+.bottom-left div {
+  margin-top: 20px;
+}
+
+.bottom-left  p:nth-child(4) {
+  margin-top: 20px;
 }
 
 .bottom-right {
@@ -457,6 +499,12 @@ float: right;
   height: 100%;
   width: 300px;
   float: right;
+  margin-right: 40px;
+  padding: 20px;
+}
+
+.bottom-right img {
+  width: 100%;
 }
 
 .bottom-left::after{

@@ -8,12 +8,15 @@
   background-color: rgb(255, 249, 227);
   border-bottom: 1px solid black;
   height: 60px;
+}
+
+.nav-up-container {
+  height: 60px;
+  width: 75%;
+  margin: auto;
   position: relative;
 }
 
-.nav-down {
-  height: 60px;
-}
 
 .arrow {
   border: solid black;
@@ -31,18 +34,17 @@
 .select-language {
   height: 30px;
   position: absolute;
-  left: 200px;
   top: 50%;
   transform: translate(0px, -15px);
 }
 
 .contact-us {
   position: absolute;
-  left: 330px;
+  left: 100px;
   top: 50%;
   transform: translate(0px, -15px);
   border-left: 1px solid black;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 
@@ -50,7 +52,7 @@
   height: 50px;
   width: 400px;
   position: absolute;
-  right: 200px;
+  right: 0px;
   top: 50%;
   transform: translate(0px, -25px);
 }
@@ -88,10 +90,14 @@
   margin-top: 10px;
 }
 
+.nav-down {
+  height: 60px;
+}
+
 .nav-down-container {
-  height: 100%;
-  width: calc(100% - 400px);
-  margin-left: 200px;
+  height: 60px;
+  width: 75%;
+  margin: auto;
 }
 
 .nav-down-logo {
@@ -103,7 +109,6 @@
 
 .nav-down-right {
   height: 100%;
-  width:500px;
   float: right;
 }
 
@@ -113,21 +118,28 @@
   margin-left: 15px;
 }
 
+
+
+
+
 .introduction {
   background-color: rgb(255, 0, 128);
 }
 
+.introduction-container {
+  width: 75%;
+  margin: auto;
+  padding-top: 70px;
+}
+
+
 .introduction-col-right {
   width: 500px;
   height: 600px;
-  position: relative;
-  left: 200px;
-  top: 50px;
 }
 
 .introduction-col-right h1 {
   font-size: 50px;
-
 }
 
 .introduction-col-right p{
@@ -143,51 +155,96 @@
   margin-top: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .introduction-bottom-bar {
   background-color: rgb(255, 0, 255);
   border: 2px solid black;
-  height: 60px;
+  height: 80px;
 }
+
+
+
 
 .services{
   background-color: rgb(191, 0, 255);
 }
 
+.container {
+  width: 75%;
+  margin: auto;
+}
+
 .servicesintro-box {
-  background-color: rgb(128, 0, 255);
-  border: 2px solid black;
+  border: 1px solid black;
   height: 400px;
   width: 600px;
   position: relative;
-  left: 50%;
-  transform: translate(-300px);
+  margin: auto;
 }
 
+.services-bottom {
+  width: 100%
+}
+
+.servicesintro-logo {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.servicesintro-box h1 {
+  margin-top: 40px;
+}
+
+.servicesintro-box p {
+  margin-top: 40px;
+}
+
+
+
 .learnmore-box {
-  width: calc(100% - 400px);
+  width: 100%;
   height: 350px;
   background-color: rgb(64, 0, 255);
   border: 2px solid black;
   position: relative;
-  left: 200px;
+
 }
+
+.learnmore-box-left {
+  height: 350px;
+  width: 350px;
+  float: left;
+  border: 1px solid black;
+}
+
+
+.learnmore-box-right {
+  height: 350px;
+  width: calc(100% - 350px);
+  float: left;
+  border: 1px solid black;
+  position: relative;
+}
+
+.learnmore-logo {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border: 1px solid black;
+  left: 125px;
+  top: 50px;
+}
+
+.learn-more {
+  position: absolute;
+  right: 100px;
+}
+
+
+
+
 
 .servicebox-container::after {
   display: table;
@@ -197,13 +254,12 @@
 
 .servicebox-container {
   background-color: rgb(0, 191, 255);
-  width: calc(100% - 400px);
-  margin-left: 200px;
+  width: 100%;
   position: relative;
 }
 
 .servicebox {
-  width: 300px;
+  width: 350px;
   height: 650px;
   background-color: rgb(0, 128, 255);
   border: 2px solid black;
@@ -213,36 +269,39 @@
 }
 
 .ser2-box {
-  position: absolute;
-  left: 50%;
-  transform: translate(-150px);
+position: absolute;
+left: calc(50% - 175px);
 }
 
 .ser3-box {
-  position: absolute;
-  right: 0px;
+float: right;
 }
 
-.stats {
-  height: 700px;
+.stats-block {
+
+}
+
+.container-stats {
+  width: 75%;
+  margin: auto;
   background-color: rgb(0, 255, 255);
   border: 2px solid black;
 }
 
 .stats-intro {
   height: 200px;
-  width: calc(100% - 400px);
+  width: 100%;
   background-color: rgb(0, 255, 191);
   border: 2px solid black;
-  margin: 20px 200px 30px 200px;
+
 }
 
 .stats-table {
   height: 400px;
   background-color: rgb(0, 255, 128);
   border: 2px solid black;
-  width: calc(100% - 400px);
-  margin: 20px 200px 30px 200px;
+  width: 100%;
+
 }
 
 .table-element {
@@ -255,74 +314,79 @@
 
 .pre-footer-container {
   height: 700px;
-  background-color: rgb(255, 255, 0);
+  width: 75%;
+  margin: auto;
   border: 2px solid black;
 }
 
-.pre-footer-1 {
-  border: 2px solid black;
-  height: 250px;
-  width: calc(100% - 500px);
-  margin-left: 250px;
-  position: relative;
+.pre-footer-top {
+  width: 100%;
+  height: 40%;
+}
+
+.pre-footer-bottom {
+  width: 100%;
+  height: 60%;
+}
+
+.top-right {
+  height: 100%;
+  width: 350px;
+  border: 1px solid black;
+  float: right;
+}
+
+.top-left {
+  height: 100%;
+  width: 200px;
+  border: 1px solid black;
+  float: left;
+}
+
+.top-left::after{
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.bottom-left {
+  background-color: red;
+  height: 100%;
+  width: 300px;
+  float: left;
+
+}
+
+.bottom-right {
+  background-color: blue;
+  height: 100%;
+  width: 300px;
+  float: right;
+}
+
+.bottom-left::after{
+  display: table;
+  content: '';
+  clear: both;
+}
+
+
+.footer-background {
   background-color: rgb(0, 128, 255);
 }
 
-.pre-footer-2 {
-  height: 450px;
-  width: calc(100% - 400px);
-  margin-left: 200px;
-  border: 2px solid black;
-  position: relative;
-  background-color: rgb(0, 255, 191);
-}
 
-.info-customers {
-  height: 100%;
-  width: 250px;
-  border: 2px solid black;
-  background-color: rgb(255, 191, 0);
-  position: absolute;
-}
-
-.sponsor {
-  height: 150px;
-  width: 600px;
-  border: 2px solid black;
-  background-color: rgb(255, 64, 0);
-  position: absolute;
-  right: 0px;
-  top: 40px;
-}
-
-.get-hub {
-  height: 100%;
-  width: 500px;
-  border: 2px solid black;
-  background-color: rgb(255, 191, 0);
-  position: absolute;
-}
-
-.image {
-  height: 400px;
-  width: 400px;
-  border: 2px solid black;
-  background-color: rgb(255, 191, 0);
-  position: absolute;
-  right: 0px;
-}
 
 footer {
   height: 600px;
-  background-color: rgb(0, 128, 255);
-
+  background-color: red;
+  width: 75%;
+  margin: auto;
 }
 
 .columns-container {
-  width: calc(100% - 400px);
-  margin-left: 200px;
-  border: 2px solid black;
-  background-color: red;
+  width: 100%;
+
 }
 
 .columns-container::after {
@@ -335,14 +399,13 @@ footer {
   float: left;
   height: 350px;
   width: 25%;
-  border: 2px solid black;
+  border: 1px solid black;
   background-color: orange;
 }
 
 .languages {
   height: 60px;
-  width: calc(100% - 400px);
-  margin-left: 200px;
+  width: 100%;
   margin-top: 30px;
   border: 2px solid black;
   background-color: blue;
@@ -350,8 +413,7 @@ footer {
 
 .copyright {
   height: 120px;
-  width: calc(100% - 400px);
-  margin-left: 200px;
+  width: 100%;
   margin-top: 30px;
   border: 2px solid black;
   background-color: green;

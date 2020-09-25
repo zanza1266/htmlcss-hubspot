@@ -4,7 +4,7 @@
   box-sizing: border-box;
   color: #33475b;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .nav-up {
@@ -176,7 +176,7 @@
 
 
 .services{
-  background-color: rgb(191, 0, 255);
+  background-color:#f2f2f2;
 }
 
 .container {
@@ -185,7 +185,6 @@
 }
 
 .servicesintro-box {
-  border: 1px solid black;
   height: 400px;
   width: 600px;
   margin: auto;
@@ -196,9 +195,7 @@
 }
 
 .servicesintro-logo {
-  height: 150px;
   width: 150px;
-  border: 1px solid black;
   margin: auto;
   margin-top: 20px;
 }
@@ -206,6 +203,7 @@
 .servicesintro-box h1 {
   margin-top: 40px;
   text-align: center;
+  font-weight: 700;
 }
 
 .servicesintro-box p {
@@ -218,16 +216,14 @@
 .learnmore-box {
   width: 100%;
   height: 350px;
-  background-color: rgb(64, 0, 255);
-  border: 2px solid black;
-
+  background-color: white;
+  box-shadow: 1px 2px 5px 2px #d9d9d9;
 }
 
 .learnmore-box-left {
   height: 350px;
   width: 350px;
   float: left;
-  border: 4px solid black;
   position: relative;
 }
 
@@ -236,7 +232,6 @@
   height: 350px;
   width: 600px;
   float: left;
-  border: 4px solid black;
   position: relative;
   padding: 40px;
 }
@@ -249,9 +244,8 @@
 
 .learnmore-logo {
   height: 100px;
-  width: 100px;
+  width: 110px;
   position: absolute;
-  border: 1px solid black;
   left: 50%;
   transform: translate(-50px,0px);
   top: 50px;
@@ -271,6 +265,7 @@
 .learnmore-box-right h2 {
     margin-top: 10px;
     margin-left: 10px;
+    font-weight: 700;
 }
 
 .learnmore-box-right p {
@@ -278,14 +273,37 @@
   margin-left: 10px;
 }
 
-.learnmore-box-right h3 {
+.popular-feature {
     margin-top: 30px;
     margin-left: 10px;
+
 }
 
-.learnmore-box-right span {
-  display: block;
-  margin-top: 30px;
+.popular-feature::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.popular-feature h3 {
+  font-weight: 700;
+  float: left;
+}
+
+.line {
+  height: 0px;
+  width: 220px;
+  border: 1px solid black;
+  background-color: black;
+  float: left;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.learnmore-box-right ul li {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 10px;
 }
 
 .servicebox-container::after {
@@ -295,7 +313,6 @@
 }
 
 .servicebox-container {
-  background-color: rgb(0, 191, 255);
   width: 100%;
   position: relative;
 }
@@ -303,12 +320,12 @@
 .servicebox {
   width: 350px;
   height: 650px;
-  background-color: rgb(0, 128, 255);
-  border: 2px solid black;
+  background-color: white;
   float: left;
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 25px;
+  box-shadow: 1px 2px 5px 2px #d9d9d9;
 }
 
 .ser2-box {

@@ -2,8 +2,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Baloo Tammudu 2', cursive;
+  color: #33475b;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .nav-up {
@@ -129,19 +130,22 @@
 
 
 .introduction {
-  background-color: rgb(255, 245, 204);
+  background-image: url(https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+  background-size: cover;
+  background-color: rgb(255, 243, 238);
+  border-bottom: 4px solid;
 }
 
 .introduction-container {
   width: 75%;
   margin: auto;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 
 .introduction-col-right {
-  width: 500px;
-  height: 600px;
+  width: 400px;
+  height: 590px;
 }
 
 .introduction-col-right h1 {
@@ -152,8 +156,9 @@
   margin-top: 30px;
 }
 
-.introduction-col-right div {
+.introduction-col-right .gethubspotfree-2 {
   margin-top: 30px;
+  font-size: 12px
 }
 
 .introduction-col-right span {
